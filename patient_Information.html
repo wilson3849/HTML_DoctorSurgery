@@ -7,33 +7,41 @@
         <title>Tech Returners Surgery - Team Page</title>
     </head>
     <body>
-        <h1><a href="home.html">Tech Returners Surgery</a></h1>
+        <header>
+            <h1><a href="home.html">Tech Returners Surgery</a></h1>
+            <hr />
+            <h2>Patient Information</h3>
+            <p>
+                <a href="team.html#get_help_now">GET HELP NOW</a>            
+                <a href="team.html#self_care_advice">SELF CARE ADVICE</a>
+                <a href="team.html#well_being_centre">WELL-BEING CENTRE</a>
+                <a href="team.html#repeat_prescriptions">REPEAT PRESCRIPTIONS</a>
+            </p>
+        </header>
         <hr />
-        <h2>Patient Information</h3>
-        <p>
-            <a href="team.html#get_help_now">GET HELP NOW</a>            
-            <a href="team.html#self_care_advice">SELF CARE ADVICE</a>
-            <a href="team.html#well_being_centre">WELL-BEING CENTRE</a>
-            <a href="team.html#repeat_prescriptions">REPEAT PRESCRIPTIONS</a>
-        </p>
+        <main>
+            <form>
+            <p>Are you completing this form on behalf of: 
+                Yourself (<input type=checkbox />), 
+                Someone else (<input type=checkbox />)</p>
+                <p><label for = "firstname">First Name…<input id="firstname" type="text"/></label></p>
+                <p><label for = "lastname">Last Name…<input id="lastname" type="text"/></label></p>
+                <p><label for = "dateofbirth">Date of Birth…<input id="dateofbirth" type="text"/></label></p>
+                <p><label for = "telephone">Telephone…<input id="telephone" type="text"/></label></p>
+                <p><label for = "email">Email…<input id="email" type="text"/></label></p>
+                <label for = "message">Your query or message…<br />
+                <textarea id="message"></textarea>
+                </label>
+            <p>
+                <input type="submit" value="submit" />
+                <input type="reset" value="reset" />
+            
+            </form>
+            <p>OR</p>
+            <p>Call  <a href="tel:03330509138">0333 050 9138</a> for emergency</p>
         <hr />
-        <form>
-        <p>Are you completing this form on behalf of: Yourself (<input type=checkbox />), Someone else (<input type=checkbox />)</p>
-        <p>First Name…<input type="text"/></p>
-        <p>Last Name…<input type="text"/></p>
-        <p>Date of Birth…<input type="text"/></p>
-        <p>Telephone…<input type="text"/></p>
-        <p>Email…<input type="text"/></p>
-        <p>Your query or message…</p>
-        <textarea></textarea>
-        <p>
-            <input type="submit" value="submit" />
-            <input type="reset" value="reset" />
-        </p>
-        </form>
-        <p>OR</p>
-        <p>Call  <a href="tel:03330509138">0333 050 9138</a> for emergency</p>
-        <hr />
+        </main>
+        <footer>
         <p>
             <ul>
                 <li style="display:inline;"><a href="home.html">Home</a></li>
@@ -50,7 +58,8 @@
                 <li style="display:inline;"><a href="home.html">Tech Returners Surgery&trade;</a></li>
                 <li style="display:inline;"><a href="privacy.html">Privacy</a></li>
             </ul>            
-        </p>           
+        </p>
+        </footer>           
     </body>
 
 </html>
